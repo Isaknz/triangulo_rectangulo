@@ -1,0 +1,16 @@
+# Archivos de sistema
+Thumbs.db
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.log
+*.swp
+
+# Dependencias
+vendor/
+node_modules/
+
+# Archivos de configuración
+.env
+.env.local
