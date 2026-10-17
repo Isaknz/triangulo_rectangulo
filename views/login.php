@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="keywords" content="triangulo, rectangulo, sistema, base de datos">
     <meta name="author" content="BC TECH">
 
-    <link rel="icon" href="../imagenes/icono.png">
+    <link rel="icon" href="../imagenes/icono_isaknz.png">
     <link rel="stylesheet" href="../assetes/css/style.css">
 
     <title>Triángulo Rectángulo</title>

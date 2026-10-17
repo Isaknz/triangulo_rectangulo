@@ -43,7 +43,7 @@ $perimetroActual = $registroEditar['perimetro'] ?? '';
     <meta name="keywords" content="triangulo, rectangulo, pitagoras, sistema, base de datos">
     <meta name="author" content="BC TECH">
 
-    <link rel="icon" href="../imagenes/icono.png">
+    <link rel="icon" href="../imagenes/icono_isaknz.png">
     <link rel="stylesheet" href="../assetes/css/style_home.css">
 
     <title>Triángulo Rectángulo - Principal</title>
@@ -127,7 +127,7 @@ $perimetroActual = $registroEditar['perimetro'] ?? '';
                 </div>
                 <div class="botones">
                     <!-- Función JS actualizada -->
-                    <button type="button" onclick="calcularTriangulo();">Calcular</button>
+                    <button type="button" onclick="calcularTriangulo(true);">Calcular</button>
                     <a class="btn-link cancelar" href="home.php">Cancelar</a>
                     <button type="submit" name="accion" value="guardar">
                         <?php echo $idActual !== '' ? 'Actualizar' : 'Guardar'; ?>
